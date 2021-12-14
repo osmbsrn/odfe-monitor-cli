@@ -17,10 +17,9 @@ package commands
 
 import (
 	"fmt"
+	"odfe-monitor-cli/destination"
+	"odfe-monitor-cli/monitor"
 	"os"
-
-	"github.com/mihirsoni/odfe-monitor-cli/destination"
-	"github.com/mihirsoni/odfe-monitor-cli/monitor"
 
 	mapset "github.com/deckarep/golang-set"
 	"github.com/fatih/color"

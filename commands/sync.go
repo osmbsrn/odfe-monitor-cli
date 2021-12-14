@@ -20,10 +20,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/mihirsoni/odfe-monitor-cli/destination"
-	"github.com/mihirsoni/odfe-monitor-cli/monitor"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
+	"odfe-monitor-cli/destination"
+	"odfe-monitor-cli/monitor"
 )
 
 var syncDestinatons bool

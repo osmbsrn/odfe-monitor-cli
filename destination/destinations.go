@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mihirsoni/odfe-monitor-cli/es"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
+	"odfe-monitor-cli/es"
 )
 
 //FileName where destinations are stored and read from

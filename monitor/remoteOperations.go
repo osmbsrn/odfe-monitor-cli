@@ -18,11 +18,11 @@ package monitor
 import (
 	"encoding/json"
 	"net/http"
+	"odfe-monitor-cli/destination"
+	"odfe-monitor-cli/es"
 	"strconv"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/mihirsoni/odfe-monitor-cli/destination"
-	"github.com/mihirsoni/odfe-monitor-cli/es"
 	"github.com/pkg/errors"
 )
 

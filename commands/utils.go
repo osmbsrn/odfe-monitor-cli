@@ -18,9 +18,9 @@ package commands
 import (
 	"net/url"
 
-	"github.com/mihirsoni/odfe-monitor-cli/monitor"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
+	"odfe-monitor-cli/monitor"
 )
 
 func check(err error) {

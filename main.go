@@ -15,9 +15,7 @@
 
 package main
 
-import (
-	"github.com/mihirsoni/odfe-monitor-cli/commands"
-)
+import "odfe-monitor-cli/commands"
 
 func main() {
 	commands.Execute()
